@@ -24,6 +24,6 @@ end
 
 def full?(board)
   board.all? do |letter|
-    letter
+    letter != " "
   end
 end
