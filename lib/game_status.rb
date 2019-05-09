@@ -23,9 +23,7 @@ def won?(board)
 end
 
 def full?(board)
-  if position_taken?(board, index).all? {|token| token === "X" || token === "O"}
-    true
-  else
-    false
+  board.all? do |letter|
+    letter
   end
 end
