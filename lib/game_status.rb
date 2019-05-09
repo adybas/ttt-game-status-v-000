@@ -39,4 +39,5 @@ def winner(board)
   if status.nil?
     nil
   else board[status[0]]
+  end
 end
