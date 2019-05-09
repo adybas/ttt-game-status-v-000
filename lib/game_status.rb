@@ -36,6 +36,6 @@ end
 
 def winner(board)
   board.find do ||
-    
+
   end
 end
