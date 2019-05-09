@@ -24,5 +24,4 @@ end
 
 def full?(board)
   board.all? {|letter| letter != " " }
-  end
 end
