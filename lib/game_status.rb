@@ -35,7 +35,7 @@ def over?(board)
 end
 
 def winner(board)
-  board.find do ||
-
+  board.find do |winner_token|
+    won?(board) === winner_token 
   end
 end
