@@ -37,6 +37,6 @@ end
 def winner(board)
   status = won?(board)
   if status.nil?
-    true
-  else false
+    nil
+  else board[status[0]]
 end
